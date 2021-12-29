@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/smw4cef.css"> 
+    <title>CobraBet</title>
+</head>
+<body> 
+    <div class="container">
+        <!-- dislay flex jusify content space-between -->
+        <div class="items-top flex">    
+                <img class="logo"src="Assets/logo_cobrabet-2x.webp" alt="">  
+        </div>
+        <div class="main-text-container flex">
+            <img class="main-text-image" src="Assets/hero-image_cobrabet.webp" alt="">
+            <a href="https://sports.cobracasino.com/en">
+            <picture>
+                <source media="(min-width:1080px)" srcset="Assets/main-text-desk.webp"> 
+                    <img class="main-text" src="Assets/mobile/title-text_cobrabet_mobile.svg" alt="">
+            </picture>
+        </a>
+        </div>
+        <div class="main-button flex">
+            <a href="https://sports.cobracasino.com/en">
+            <img class="button-signup" src="Assets/button_cobrabet-2x.webp" alt="">
+            </a>
+            <img class="league" src="Assets/league-logos_cobrabet.svg" alt="">
+        </div>
+
+        <div class="steps flex">
+            <div class="step-1 flex column">
+                <img class="step-img" src="new-assets/number-1.webp"  alt="">
+                <p class="step-1-p">open <br> an account</p>
+            </div>
+          
+        
+            <img src="Assets/arrow.svg" alt="" class="arrow">
+
+            <div class="step2 flex column">
+                <img class="step-img" src="new-assets/number-2.webp" alt="">
+                <p class="step-2-p">easy <br> deposit</p>
+            </div>
+           
+           
+            <img src="Assets/arrow.svg" alt="" class="arrow">
+            <div class="step-3 flex column">
+                <img class="step-img" src="new-assets/number-3.webp" alt="">
+                <p class="step-3-p">get up to <br> €100 free bets</p>
+            </div>
+            
+           
+        </div>
+
+        <div class="bottom-logos">
+            <a href="https://www.askgamblers.com/online-casinos/reviews/cobra-casino">
+                <img class="askgamblers" src="Assets/AskGamblers-logologo.svg" alt="">
+            </a>
+            <a href="https://casinodaddy.com/online-casinos/cobra-casino/">
+                <img class="casino-daddy" src="Assets/Casino-daddy-logo.svg" alt="">
+            </a>
+            <a href="https://www.gamblingjudge.com/reviews/cobra-casino/">
+                <img class="gambling-judge"src="Assets/gambling-judge-final.svg" alt="">
+            </a>
+        </div>
+    <div class="slider-bottom">
+        <div class="logo-slider logo-slider--other" ng-init="payments = [
+        'visa', 'maestro', 'mastercard', 'wirecard', 'neteller', 'skrill', 'ecopayz', 'yandex', 'devcode-interac', 'devcode-einterac', 'paysafecard', 'idebit', 'instadebit', 'rapid-transfer', 'neosurf', 'devcode_sticpay', 'devcode-siru', 'devcode-venuspoint', 'devcode-bankintl', 'purplepay', 'alfaclick', 'bank_transfer', 'bitcoin_coinspaid', 'bitcoincash_coinspaid', 'ethereum_coinspaid', 'litecoin_coinspaid', 'coinspaid'
+    ]">
+        <div class="logo-slider__list" data-uix-bxslider="hideControlOnEnd: true, infiniteLoop: false, maxSlides:30, adaptiveHeight:true, touchEnabled: false, moveSlides: 1">
+            <div class="logo-slider__item" ng-repeat="item in payments" data-notify-when-repeat-finished>
+                <img ng-src="{{$root.CDN.SERVER}}/logos/payments/white/{{item}}.svg"/>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <div class="login-scroll">
+        <div class="container-flex">
+            <a href="" class="button-login-bottom">REGISTRATION</a>
+            <p class="text-bottom-scroll">
+                FIRST DEPOSIT BONUS
+                <br>
+                100% UP TO <span class="text-bottom-yellow">€500 </span> | <span class="text-bottom-yellow">+250</span>  FREE SPINS
+            </p>
+            <img  class="text-bottom-img"src="Asset 5@4x.png" alt="" >
+        </div>
+    </div>
+    </div>
+</body>
+</html>

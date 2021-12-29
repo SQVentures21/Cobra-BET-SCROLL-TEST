@@ -1,0 +1,541 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  background-image: url(Assets/wallpaper_cobrabet.webp) !important;
+  background-size: cover;
+  background-attachment: fixed; 
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 0px !important;
+}
+
+p {
+  margin: 0 0 0px !important;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  align-content:center;
+}
+
+
+.items-top
+{
+  margin:24px 0 12px 0;
+}
+
+.logo
+{
+  width:142px;
+  height:36px;
+}
+
+.main-text-container
+{
+  flex-direction: column;
+}
+
+
+.main-text-image
+{
+  height:218px;
+  mix-blend-mode:lighten;
+}
+
+.main-text
+{
+ width:289px; 
+}
+
+
+.main-button
+{
+  flex-direction:column;
+  gap:24px;
+  margin-bottom:32px;
+}
+.button-signup
+{
+width:189px;
+height:74px;
+}
+
+.league
+{
+ 
+  width:248px;
+  height:46px;
+}
+
+.steps
+{
+  background-color:rgba(10, 11, 13, 0.6);
+  min-height:72px;
+
+}
+
+.step-img , .step-img, .step-img
+{
+  width:24px;
+  height:24px;
+}
+
+.step-1 , .step-2, .step-3
+{
+  width:100px;
+  height:24px;
+  padding:10px 0 10px 0;
+}
+
+
+.step-1-p , .step-2-p , .step-3-p
+
+{
+ 
+font-family: Futura PT;
+font-size: 12px;
+font-style: italic;
+font-weight: 450;
+line-height: 12px;
+letter-spacing: 0.05em;
+text-align: center;
+color:white;
+padding-top:5px;
+text-transform: uppercase;
+
+}
+
+.column
+{
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.arrow
+{
+  width:20px;
+  height:12px;
+  
+}
+
+.bottom-logos
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap:8px;
+  margin-bottom:24px;
+  padding-top:20px;
+ 
+}
+
+.askgamblers , .casino-daddy , .gambling-judge
+{
+  width: 122px;
+  height: 36px;
+}
+
+.slider-bottom
+{
+  height:60px;
+  background-color: black;
+  padding-bottom: 4px;
+}
+
+.login-scroll
+  {
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height:100px;
+    left:0%;
+    background-color: rgb(10, 10, 10);
+  }
+
+.container-flex
+{
+  display: flex;
+  flex-direction:row;
+  border: 2px solid rgb(63, 35, 35);
+  padding-top: 10px;
+ 
+}
+
+.button-login-bottom
+{
+
+  color: #ffffff!important;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  line-height: 20px;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  max-width: 160px;
+  outline: none;
+  letter-spacing: normal;
+  border-radius: 3px;
+  background-color: #fd0000;
+  margin: 20px 10px 8px 18px;
+  padding: 12px 9px;
+  font-family: Helvetica, sans-serif;
+}
+
+.text-bottom-scroll
+{
+  font-family:Helvetica, sans-serif;
+  font-size:14px;
+  color:white;
+  padding-right:10px;
+  
+}
+
+.text-bottom-yellow
+{
+  font-weight: bold;
+  color:yellow;
+}
+
+.text-bottom-img
+{
+  width:60px;
+  height:60px;
+  padding-top:15px;
+}
+
+@media(min-height:500px)
+
+{
+  .text-bottom-scroll
+  {
+    padding-top:22px;
+  }
+
+  .text-bottom-img
+  {
+    width:90px;
+    height:90px;
+    padding-top:5px;
+   
+  }
+
+
+}
+@media(min-width:700px)
+{
+
+  .main-text-image
+  {
+    height:350px;
+    mix-blend-mode:lighten;
+  }
+
+  .login-scroll
+  {
+    position: fixed;
+    bottom: 0;
+    width:560px;
+    height:100px;
+    left: 50%;
+    top:96%!important;
+  transform: translate(-50%, -50%);
+    background-color: rgb(10, 10, 10);
+  }
+
+  
+.container-flex
+{
+  display: flex;
+  flex-direction:row;
+  width:560px;
+  height:100px;
+  border: 2px solid rgb(63, 35, 35);
+  padding-top: 10px;
+ 
+}
+
+
+  .steps
+  {
+    gap:40px;
+  }
+}
+
+
+@media(min-width:800px)
+{
+
+  .main-text-image
+  {
+    height:498px;
+  
+    mix-blend-mode:lighten;
+  }
+
+  
+  .main-text
+  {
+  width:450px;
+  height:216px;
+  }
+
+  .step-1 , .step-2 , .step-3
+  {
+  width:190px;
+  height:124px;
+  }
+
+  .arrow
+  {
+    width:56px;
+    height:40px;
+  }
+
+
+  
+.step-img , .step-img, .step-img
+{
+  width:56px;
+  height:56px;
+}
+
+.step-1 , .step-2, .step-3
+{
+  width:220px;
+  height:106px;
+  padding:10px 0 10px 0;
+}
+
+.steps{
+  padding:10px 0 10px 0;
+}
+
+.step-1-p , .step-2-p , .step-3-p
+
+{
+ 
+  font-family: Futura PT;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 450;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  
+color:white;
+text-transform: uppercase;
+
+}
+
+  .button-signup
+  {
+    width:295px;
+    height:118px;
+  }
+
+  .items-top
+  {
+    justify-content: flex-start;
+    width:80%;
+    padding-left:10%;
+  }
+
+  .logo
+  {
+    Width:247px;
+    Height:64px;
+    margin-top:56px;
+  }
+
+  .league
+  {
+    width:324px;
+    height:60px;
+    z-index: 1;
+    position: absolute;
+    top:7%;
+    right:-12%;
+    transform: translate(-50%, -50%);
+  }
+
+  .askgamblers , .casino-daddy , .gambling-judge
+{
+  width:190px;
+  height:56px;
+}
+}
+
+@media(min-width:1080px)
+{
+
+  .main-text-container
+  {
+    flex-direction:row;
+    
+  }
+
+  .main-text-image
+  {
+    order:1;
+    width:55%;
+    height:auto;
+    padding-right:2rem;
+    max-width:1190px;
+    max-height:722px;
+  }
+  .main-text
+  {
+  padding-left:5rem;
+  height:80%;
+  max-width:860px;
+  }
+
+  .button-signup
+  {
+  display: none;
+  }
+
+ .main-button
+ {
+   margin-bottom:0;
+ }
+
+  .league
+  {
+    top: 9%;
+  }
+  
+  }
+
+
+  .step-1 , .step-2, .step-3
+{
+  width:280px;
+  height:106px;
+  padding:10px 0 10px 0;
+}
+
+.step-1-p , .step-2-p, .step-3-p
+{
+  font-size:29px;
+}
+
+@media(min-width:1320px)
+{
+  .league
+  {
+    right: 1%!important;;
+  }
+
+  .main-text
+  {
+  padding-left:5rem;
+  width:40rem;
+  max-width:860px;
+  }
+
+  .steps
+  {
+    gap:96px;
+  }
+
+  .items-top
+  {
+    justify-content: flex-start;
+    width:80%;
+    padding-left:6rem;
+  }
+
+  .container-flex
+  {
+    display: flex;
+    flex-direction:row;
+  }
+   
+}
+
+
+@media(min-width:1650px)
+{
+  .league
+  {
+    top:9%;
+  }
+
+  .items-top
+  {
+    justify-content: flex-start;
+    width:80%;
+    padding-left:9rem;
+  }
+ 
+}
+
+@media(min-width:1880px)
+{
+  .items-top
+  {
+    padding-left:12rem;
+  }
+
+  .steps
+ 
+}
+
+
+@media(min-width:2200px)
+{
+  .items-top
+  {
+    justify-content: flex-start;
+    width:80%;
+    padding-left:17vw;
+  }
+
+  .steps
+  {
+    margin-top:7.5rem;
+  }
+ 
+}
+
+
+
+@media(min-width:2600px)
+{
+  .items-top
+  {
+    justify-content: flex-start;
+    width:80%;
+    padding-left:17vw;
+  }
+
+  .steps
+  {
+    margin-top:10rem;
+  }
+ 
+}
+

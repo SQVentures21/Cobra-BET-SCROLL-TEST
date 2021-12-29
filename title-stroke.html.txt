@@ -1,0 +1,19 @@
+body {
+  font-family: system-ui;
+  background:
+  color: white;
+  text-align: center;
+}
+
+h1
+{
+  color: black;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: green;
+  text-shadow: 11px 10px 1px   , 1px 1px 1px green  ,16px 12px 1px green ,1px 1px 1px green;
+  
+}
+
+Green<h1>100 EUR</h1>
+<h2>Free bets</h2>
