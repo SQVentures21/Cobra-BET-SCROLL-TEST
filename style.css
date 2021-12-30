@@ -167,16 +167,19 @@ text-transform: uppercase;
     bottom: 0;
     width:100%;
     height:100px;
-    left:0%;
-    background-color: rgb(10, 10, 10);
+   
   }
 
 .container-flex
 {
   display: flex;
   flex-direction:row;
-  border: 2px solid rgb(63, 35, 35);
-  padding-top: 10px;
+  padding-top: 8px;
+  padding-bottom:8px;
+  width:100%;
+  margin:0 auto;
+  background-color: #202021;
+  justify-content: center;
  
 }
 
@@ -184,20 +187,20 @@ text-transform: uppercase;
 {
 
   color: #ffffff!important;
-  font-size: 13px;
+  font-size: 10px;
   text-decoration: none;
   font-weight: bold;
   display: block;
   text-transform: uppercase;
   line-height: 20px;
   text-align: center;
-  width: 100%;
+  width: 110px;
   height: 40px;
   max-width: 160px;
   outline: none;
   letter-spacing: normal;
   border-radius: 3px;
-  background-color: #fd0000;
+  background-color: #da323a;
   margin: 20px 10px 8px 18px;
   padding: 12px 9px;
   font-family: Helvetica, sans-serif;
@@ -206,43 +209,59 @@ text-transform: uppercase;
 .text-bottom-scroll
 {
   font-family:Helvetica, sans-serif;
-  font-size:14px;
+  font-size:12px;
   color:white;
-  padding-right:10px;
+  padding-right:0px;
+  padding-top:18px;
   
 }
 
 .text-bottom-yellow
 {
   font-weight: bold;
-  color:yellow;
+  color:#ffea00;
 }
 
 .text-bottom-img
 {
-  width:60px;
-  height:60px;
-  padding-top:15px;
+  width:70px;
+  height:80px;
+  padding-top:5px;
+  padding-left:5px;
+
 }
 
-@media(min-height:500px)
 
+@media(min-width:450px)
 {
-  .text-bottom-scroll
+  .container-flex
   {
-    padding-top:22px;
+    width:450px;
   }
-
   .text-bottom-img
   {
-    width:90px;
-    height:90px;
-    padding-top:5px;
-   
+    margin-right:10px;
   }
 
+  .button-login-bottom
+  {
+    width:100%;
+    font-size:13px;
+    margin: 22px 10px 8px 18px;
 
+  }
+  .text-bottom-scroll
+  {
+    padding-right:10px;
+  }
+
+  .text-bottom-scroll
+  {
+    font-size:14px;
+  }
 }
+
+
 @media(min-width:700px)
 {
 
@@ -252,29 +271,7 @@ text-transform: uppercase;
     mix-blend-mode:lighten;
   }
 
-  .login-scroll
-  {
-    position: fixed;
-    bottom: 0;
-    width:560px;
-    height:100px;
-    left: 50%;
-    top:96%!important;
-  transform: translate(-50%, -50%);
-    background-color: rgb(10, 10, 10);
-  }
-
   
-.container-flex
-{
-  display: flex;
-  flex-direction:row;
-  width:560px;
-  height:100px;
-  border: 2px solid rgb(63, 35, 35);
-  padding-top: 10px;
- 
-}
 
 
   .steps
